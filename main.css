@@ -1,0 +1,54 @@
+html {
+  background: url(landing-page-bg.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+html body {
+  background-color: transparent;
+}
+div.main-text {
+  position: fixed;
+  left: 5%;
+  bottom: 15%;
+  max-width: 500px;
+  background: #fff;
+  opacity: .9;
+  font-family: lato, helvetica, arial, sans-serif;
+  font-weight: 300;
+  font-size: 26px;
+  line-height: 1.5;
+  padding: 30px 75px;
+}
+
+p {
+}
+
+@media screen and (max-width: 480px) {
+  div.main-text {
+    font-size: 16px;
+    padding: 15px 25px;
+  }
+}
+
+
+/*div.main-text p {*/
+  /*margin: 0 .5em .5em 0;*/
+  /*padding: 10px 20px 10px 30px;*/
+  /*color: #fff;*/
+  /*background: #e54900;*/
+  /*line-height: 1.5;*/
+  /*display: inline-block;*/
+/*}*/
+/*div.main-text p.external-places a {*/
+  /*text-decoration: none;*/
+  /*margin-right: 10px;*/
+/*}*/
+/*div.main-text a {*/
+  /*text-decoration: underline;*/
+  /*color: #fff;*/
+/*}*/
+/*div.main-text .tooltip .tooltip-inner {*/
+  /*font-size: 20px;*/
+/*}*/
